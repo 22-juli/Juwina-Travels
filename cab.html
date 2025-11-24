@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cab Booking - Juwina Travels</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="agency-name">
+  <h1>Juwina Travels</h1>
+</div>
+
+<div class="nav-menu">
+  <a href="index.html">Home</a>
+  <a href="packages.html">Packages</a>
+  <a href="cab.html">Cab</a>
+  <a href="drivers.html">Drivers</a>
+  <a href="contact.html">Contact</a>
+</div>
+
+<section class="content">
+<h2>Cab Booking Form</h2>
+
+<form id="cabForm" action="success.html" method="GET" class="form-box">
+  <label>Name</label>
+  <input type="text" name="name" placeholder="Your Name" required>
+
+  <label>Email</label>
+  <input type="email" name="email" placeholder="Your Email" required>
+
+  <label>Phone</label>
+  <input type="tel" name="phone" placeholder="Your Phone" required>
+
+  <label>Pickup Location</label>
+  <input type="text" name="pickup" placeholder="City / Address" required>
+
+  <label>Drop Location</label>
+  <input type="text" name="drop" placeholder="City / Address" required>
+
+  <label>Pickup Date</label>
+  <input type="date" name="date" required>
+
+  <button type="submit" class="btn">Book Cab</button>
+</form>
+</section>
+
+<footer>
+<p>© 2025 Juwina Travels</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
