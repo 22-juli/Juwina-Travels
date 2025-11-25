@@ -6,7 +6,7 @@ It's a travel agency project where user can view travel package and book, they c
 
 ## 🌐 Live Demo
 
-[View Live Website](https://22-juki.github.io/juwina-travels/)
+[View Live Website](https://22-juli.github.io/juwina-travels/)
 
 ---
 
